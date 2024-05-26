@@ -16,7 +16,7 @@ class Article:
                                                                 self.time, self.date)
 
 
-class NewsArmeniaParser(object):
+class NewsArmeniaParser:
     baseUrl: str = "https://newsarmenia.am"
     url: str = "https://newsarmenia.am/news/armenia/?PAGEN_3="
     pageCount: int
